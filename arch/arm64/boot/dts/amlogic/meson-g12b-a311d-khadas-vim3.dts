@@ -39,3 +39,11 @@
 	phy-names = "usb2-phy0", "usb2-phy1";
 };
  */
+ 
+&i2c_AO{
+  ti_hdc: ti_hdc@40{
+ compatible = "ti,hdc1080";
+ reg = <0x40>;
+ };
+};
+
